@@ -12,15 +12,15 @@ function Contact() {
         <div className="carousel-inner text-center">
 
           <div className="carousel-item active">
-            <h4 className="text-black"> Desarrollo Web con pasión</h4>
+            <h4 className="text-black">Desarrollo Web con pasión</h4>
           </div>
 
           <div className="carousel-item">
-            <h4 className="text-black"> Siempre aprendiendo nuevas tecnologías</h4>
+            <h4 className="text-black">Siempre aprendiendo nuevas tecnologías</h4>
           </div>
 
           <div className="carousel-item">
-            <h4 className="text-black"> Buscando crecer profesionalmente</h4>
+            <h4 className="text-black">Buscando crecer profesionalmente</h4>
           </div>
 
         </div>
@@ -66,7 +66,12 @@ function Contact() {
             <div className="card-body">
               <h5>LinkedIn</h5>
               <p className="text-muted">Conecta conmigo</p>
-              <a href="#" className="btn btn-primary">
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary"
+              >
                 Ver perfil
               </a>
             </div>
@@ -77,9 +82,14 @@ function Contact() {
         <div className="col-md-4 mb-3">
           <div className="card shadow h-100 border-0">
             <div className="card-body">
-              <h5> GitHub</h5>
+              <h5>GitHub</h5>
               <p className="text-muted">Mira mis proyectos</p>
-              <a href="#" className="btn btn-primary">
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary"
+              >
                 Ver repos
               </a>
             </div>
@@ -87,8 +97,6 @@ function Contact() {
         </div>
 
       </div>
-
-
     </div>
   );
 }
