@@ -12,15 +12,15 @@ function Contact() {
         <div className="carousel-inner text-center">
 
           <div className="carousel-item active">
-            <h4 className="text-black">Desarrollo Web con pasión</h4>
+            <h4>Desarrollo Web con pasión</h4>
           </div>
 
           <div className="carousel-item">
-            <h4 className="text-black">Siempre aprendiendo nuevas tecnologías</h4>
+            <h4>Siempre aprendiendo nuevas tecnologías</h4>
           </div>
 
           <div className="carousel-item">
-            <h4 className="text-black">Buscando crecer profesionalmente</h4>
+            <h4>Buscando crecer profesionalmente</h4>
           </div>
 
         </div>
@@ -44,7 +44,7 @@ function Contact() {
         </button>
       </div>
 
-      {/* 💳 REDES */}
+      {/* 💳 CONTACTO */}
       <div className="row text-center">
 
         {/* EMAIL */}
@@ -53,7 +53,10 @@ function Contact() {
             <div className="card-body">
               <h5>Email</h5>
               <p className="text-muted">karol@example.com</p>
-              <a href="mailto:karol@example.com" className="btn btn-primary">
+              <a
+                href="mailto:karol@example.com"
+                className="btn btn-primary"
+              >
                 Escribir
               </a>
             </div>

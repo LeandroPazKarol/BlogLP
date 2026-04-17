@@ -23,47 +23,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* REDES */}
-          <div className="col-md-4 mb-3">
-            <h5>Redes</h5>
-
-            <a 
-              href="https://instagram.com" 
-              target="_blank" 
-              rel="noreferrer"
-              className="text-light me-3"
-            >
-              Instagram
-            </a>
-
-            <a 
-              href="https://tiktok.com" 
-              target="_blank" 
-              rel="noreferrer"
-              className="text-light me-3"
-            >
-              TikTok
-            </a>
-
-            <a 
-              href="https://facebook.com" 
-              target="_blank" 
-              rel="noreferrer"
-              className="text-light me-3"
-            >
-              Facebook
-            </a>
-
-            <a 
-              href="https://wa.me/51999999999" 
-              target="_blank" 
-              rel="noreferrer"
-              className="text-light me-3"
-            >
-              WhatsApp
-            </a>
-
-          </div>
 
         </div>
       </div>
