@@ -1,4 +1,4 @@
-import foto from './../assets/IMG-20240414-WA0046.jpg';
+import foto from '../assets/IMG-20240414-WA0046.jpg';
 
 function Hero() {
   return (
