@@ -12,15 +12,15 @@ function Contact() {
         <div className="carousel-inner text-center">
 
           <div className="carousel-item active">
-            <h4 className=""> Desarrollo Web con pasión</h4>
+            <h4 className="text-black"> Desarrollo Web con pasión</h4>
           </div>
 
           <div className="carousel-item">
-            <h4 className="text-success"> Siempre aprendiendo nuevas tecnologías</h4>
+            <h4 className="text-black"> Siempre aprendiendo nuevas tecnologías</h4>
           </div>
 
           <div className="carousel-item">
-            <h4 className="text-danger"> Buscando crecer profesionalmente</h4>
+            <h4 className="text-black"> Buscando crecer profesionalmente</h4>
           </div>
 
         </div>
@@ -87,6 +87,7 @@ function Contact() {
         </div>
 
       </div>
+
 
     </div>
   );

@@ -7,7 +7,6 @@ function Hero() {
         
         <div className="row align-items-center">
 
-          {/* TEXTO */}
           <div className="col-lg-6">
             <h1 className="display-4 fst-italic">
               Karol Andrea Leandro Paz
@@ -18,13 +17,12 @@ function Hero() {
             </p>
 
             <p className="lead mb-0">
-              <a href="#" className="text-body-emphasis fw-bold">
+              <button className="btn btn-link text-body-emphasis fw-bold p-0">
                 Conóceme un poco más...
-              </a>
+              </button>
             </p>
           </div>
 
-         
           <div className="col-lg-6 text-center">
             <img
               src={foto}

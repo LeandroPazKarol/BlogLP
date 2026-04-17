@@ -7,7 +7,7 @@ function Footer() {
           {/* INFO */}
           <div className="col-md-4 mb-3">
             <h5 className="fw-bold">Karol Andrea</h5>
-            <p className="text-muted">
+            <p className="text-light">
               Estudiante de Ingeniería de Software apasionada por el desarrollo web y la tecnología.
             </p>
           </div>
@@ -16,20 +16,53 @@ function Footer() {
           <div className="col-md-4 mb-3">
             <h5>Enlaces</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-decoration-none text-light">Inicio</a></li>
-              <li><a href="#" className="text-decoration-none text-light">Sobre mí</a></li>
-              <li><a href="#" className="text-decoration-none text-light">Proyectos</a></li>
-              <li><a href="#" className="text-decoration-none text-light">Contacto</a></li>
+              <li><a href="/" className="text-decoration-none text-light">Inicio</a></li>
+              <li><a href="/" className="text-decoration-none text-light">Sobre mí</a></li>
+              <li><a href="/" className="text-decoration-none text-light">Proyectos</a></li>
+              <li><a href="/" className="text-decoration-none text-light">Contacto</a></li>
             </ul>
           </div>
 
           {/* REDES */}
           <div className="col-md-4 mb-3">
             <h5>Redes</h5>
-            <a href="#" className="text-light me-3">Instagram</a>
-            <a href="#" className="text-light me-3">Tik Tok</a>
-            <a href="#" className="text-light me-3">Facebook</a>
-            <a href="#" className="text-light me-3">WhatsApp</a>
+
+            <a 
+              href="https://instagram.com" 
+              target="_blank" 
+              rel="noreferrer"
+              className="text-light me-3"
+            >
+              Instagram
+            </a>
+
+            <a 
+              href="https://tiktok.com" 
+              target="_blank" 
+              rel="noreferrer"
+              className="text-light me-3"
+            >
+              TikTok
+            </a>
+
+            <a 
+              href="https://facebook.com" 
+              target="_blank" 
+              rel="noreferrer"
+              className="text-light me-3"
+            >
+              Facebook
+            </a>
+
+            <a 
+              href="https://wa.me/51999999999" 
+              target="_blank" 
+              rel="noreferrer"
+              className="text-light me-3"
+            >
+              WhatsApp
+            </a>
+
           </div>
 
         </div>
